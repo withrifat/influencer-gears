@@ -1,28 +1,79 @@
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
   /* Styles for phones */
-
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        padding: 5px;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding: 5px;
+        text-align: center;
+    }
+    .h-txt h1{
+        font-size: 2rem;
+    }
 
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   /* Styles for small tablets or large phones */
-
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        padding: 5px;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding: 5px;
+    }
+    .h-txt h1{
+        font-size: 2rem;
+    }
   
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* Styles for tablets */
-
+        nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        padding: 5px;
+    }
+    .hero {
+        gap: 3rem;
+        padding: 5px;
+    }
+    .h-txt h1{
+        font-size: 2rem;
+    }
 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   /* Styles for laptops/desktops */
-
+        nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        padding: 5px;
+    }
+    .hero {
+        gap: 3rem;
+        padding: 5px;
+    }
+    .h-txt h1{
+        font-size: 3rem;
+    }
 
 }
 
@@ -31,5 +82,5 @@
   /* Styles for large desktops */
 
 
-  
+
 }
